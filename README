@@ -1,0 +1,30 @@
+
+
+**************
+* To Compile *
+**************
+make
+
+**********
+* To Run *
+**********
+java Pacman
+
+**********
+* Output *
+**********
+There is no output.  Just play the game.  Enjoy!
+
+************************
+* Turn into a Jar File *
+************************
+(This isn't for a turn in, this is just to remind me how.  I don't guarantee that this will work
+ and certainly don't want this functionality graded :-) )
+First, edit the code to access the images differently (search code for JAR)
+Then, do the following commands
+
+jar cf Pacman.jar *.class img/ sounds/
+Then sign using...
+jarsigner Pacman.jar alias
+(You have to set up jarsigner!)
+
